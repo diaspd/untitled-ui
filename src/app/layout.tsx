@@ -17,6 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Untitled UI</title>
+        <link rel="icon" href="/logomark.ico" sizes="any" />
+      </head>
+
       <body className={inter.className}>
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
