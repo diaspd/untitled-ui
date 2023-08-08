@@ -12,7 +12,7 @@ export function HomeForm() {
       <div className="grid grid-cols-form gap-3">
         <label
           htmlFor="firstName"
-          className="text-sm font-medium text-zinc-700"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
         >
           Name
         </label>
@@ -28,7 +28,10 @@ export function HomeForm() {
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="email" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="email"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Email address
         </label>
         <Input.Root>
@@ -44,9 +47,12 @@ export function HomeForm() {
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="photo" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="photo"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Your photo
-          <span className="mt-0.5 block text-sm font-normal text-zinc-500">
+          <span className="mt-0.5 block text-sm font-normal text-zinc-500 dark:text-zinc-400">
             This will be displayed on your profile.
           </span>
         </label>
@@ -59,7 +65,10 @@ export function HomeForm() {
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="role" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="role"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Role
         </label>
         <Input.Root>
@@ -68,23 +77,32 @@ export function HomeForm() {
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="country" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="country"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Country
         </label>
         <div></div>
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="timezone" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="timezone"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Timezone
         </label>
         <div></div>
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="bio" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="bio"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Bio
-          <span className="mt-0.5 block text-sm font-normal text-zinc-500">
+          <span className="mt-0.5 block text-sm font-normal text-zinc-500 dark:text-zinc-400">
             write a short introduction.
           </span>
         </label>
@@ -92,14 +110,18 @@ export function HomeForm() {
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
-        <label htmlFor="projects" className="text-sm font-medium text-zinc-700">
+        <label
+          htmlFor="projects"
+          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+        >
           Portfolio projects
-          <span className="mt-0.5 block text-sm font-normal text-zinc-500">
+          <span className="mt-0.5 block text-sm font-normal text-zinc-500 dark:text-zinc-400">
             Share a few snippets of your work.
           </span>
         </label>
         <FileInput.Root>
           <FileInput.Trigger />
+          <FileInput.FileList />
           <FileInput.Control multiple />
         </FileInput.Root>
       </div>
@@ -107,7 +129,7 @@ export function HomeForm() {
       <div className="flex items-center justify-end gap-2 pt-5">
         <button
           type="button"
-          className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50"
+          className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50 dark:text-zinc-200 dark:hover:bg-zinc-600"
         >
           Cancel
         </button>

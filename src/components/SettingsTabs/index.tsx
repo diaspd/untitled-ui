@@ -9,7 +9,7 @@ export function SettingsTabs() {
 
   return (
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
-      <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
+      <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200 ">
         <TabItem
           value="tab1"
           title="My details"
