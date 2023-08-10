@@ -1,8 +1,11 @@
-import { Mail } from 'lucide-react'
+import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 
+import { Button } from './Button'
 import * as Input from '@/components/Sidebar/Input'
 import * as FileInput from '@/components/HomeForm/FileInput'
-import { CountrySelect } from '@/app/ContrySelect'
+import { CountrySelect } from '@/components/HomeForm/Select/ContrySelect'
+import * as Select from '@/components/HomeForm/Select'
+import { Textarea } from './Textarea'
 
 export function HomeForm() {
   return (
@@ -89,27 +92,79 @@ export function HomeForm() {
         <div></div>
       </div>
 
-      <div className="grid grid-cols-form gap-3 pt-5">
-        <label
-          htmlFor="timezone"
-          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
-        >
+      <label className="grid gap-3 pt-5 lg:grid-cols-form">
+        <span className="flex flex-col text-sm font-medium leading-relaxed text-zinc-700 dark:text-zinc-100">
           Timezone
-        </label>
-        <div></div>
-      </div>
+        </span>
+        <Select.Root name="timezone">
+          <Select.Trigger>
+            <Select.Value placeholder="Select your timezone..." />
+          </Select.Trigger>
 
-      <div className="grid grid-cols-form gap-3 pt-5">
+          <Select.Content>
+            <Select.Item value="utc-3">
+              <Select.ItemText>
+                Pacific Standard Time (PST)
+                <span className="text-sm text-zinc-500">UTC 08:00</span>
+              </Select.ItemText>
+            </Select.Item>
+          </Select.Content>
+        </Select.Root>
+      </label>
+
+      <div className="grid gap-3 pt-5 lg:grid-cols-form">
         <label
           htmlFor="bio"
-          className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
+          className="flex flex-col text-sm font-medium leading-relaxed text-zinc-700 dark:text-zinc-100"
         >
           Bio
-          <span className="mt-0.5 block text-sm font-normal text-zinc-500 dark:text-zinc-400">
-            write a short introduction.
+          <span className="text-sm font-normal text-zinc-500 dark:text-zinc-400">
+            Write a short introduction.
           </span>
         </label>
-        <div></div>
+        <div className="flex flex-col gap-3">
+          <div className="grid gap-3 lg:grid-cols-2">
+            <Select.Root defaultValue="normal">
+              <Select.Trigger>
+                <Select.Value />
+              </Select.Trigger>
+
+              <Select.Content>
+                <Select.Item value="normal">
+                  <Select.ItemText>Normal text</Select.ItemText>
+                </Select.Item>
+                <Select.Item value="md">
+                  <Select.ItemText>Markdown</Select.ItemText>
+                </Select.Item>
+              </Select.Content>
+            </Select.Root>
+            <div className="flex items-center gap-1">
+              <Button variant="ghost">
+                <Bold className="h-4 w-4 text-zinc-400" strokeWidth={3} />
+              </Button>
+              <Button variant="ghost">
+                <Italic className="h-4 w-4 text-zinc-400" strokeWidth={3} />
+              </Button>
+              <Button variant="ghost">
+                <Link className="h-4 w-4 text-zinc-400" strokeWidth={3} />
+              </Button>
+              <Button variant="ghost">
+                <List className="h-4 w-4 text-zinc-400" strokeWidth={3} />
+              </Button>
+              <Button variant="ghost">
+                <ListOrdered
+                  className="h-4 w-4 text-zinc-400"
+                  strokeWidth={3}
+                />
+              </Button>
+            </div>
+          </div>
+          <Textarea
+            name="bio"
+            id="bio"
+            defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
+          />
+        </div>
       </div>
 
       <div className="grid grid-cols-form gap-3 pt-5">
