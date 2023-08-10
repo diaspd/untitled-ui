@@ -1,11 +1,17 @@
 'use client'
-
+import { useEffect } from 'react'
 import { Trash2, UploadCloud } from 'lucide-react'
 import { useFileInput } from './Root'
 import { formatBytes } from '@/utils/format-bytes'
+import { useFileUpload } from '../../../hooks/useFileUpload'
 
 export function FileList() {
   const { files } = useFileInput()
+  const { progress, simulateFileUpload } = useFileUpload()
+
+  useEffect(() => {
+    simulateFileUpload()
+  }, [])
 
   return (
     <div className="mt-4 space-y-3">
@@ -30,12 +36,14 @@ export function FileList() {
 
               <div className="flex w-full items-center gap-3">
                 <div className="h-2 flex-1 rounded-full bg-zinc-100">
-                  <div className="h-2 w-4/5 rounded-full bg-violet-600" />
+                  <div
+                    className="h-2 w-4/5 rounded-full bg-violet-600"
+                    style={{ width: `${progress}%` }}
+                  />
+                  {progress}%
                 </div>
-                <span className="text-sm font-medium text-zinc-700">80%</span>
               </div>
             </div>
-
             <button
               type="button"
               className="ml-auto rounded-md p-2 hover:bg-zinc-50 dark:hover:bg-zinc-800"

@@ -2,6 +2,7 @@ import { Mail } from 'lucide-react'
 
 import * as Input from '@/components/Sidebar/Input'
 import * as FileInput from '@/components/HomeForm/FileInput'
+import { CountrySelect } from '@/app/ContrySelect'
 
 export function HomeForm() {
   return (
@@ -83,6 +84,8 @@ export function HomeForm() {
         >
           Country
         </label>
+
+        <CountrySelect />
         <div></div>
       </div>
 
