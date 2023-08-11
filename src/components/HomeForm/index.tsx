@@ -1,11 +1,13 @@
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 
-import { Button } from './Button'
 import * as Input from '@/components/Sidebar/Input'
 import * as FileInput from '@/components/HomeForm/FileInput'
+
+import { Button } from './Button'
 import { CountrySelect } from '@/components/HomeForm/Select/ContrySelect'
 import * as Select from '@/components/HomeForm/Select'
 import { Textarea } from './Textarea'
+import { ToggleButton } from './ToggleButton'
 
 export function HomeForm() {
   return (
@@ -139,15 +141,27 @@ export function HomeForm() {
               </Select.Content>
             </Select.Root>
             <div className="flex items-center gap-1">
-              <Button variant="ghost">
-                <Bold className="h-4 w-4 text-zinc-400" strokeWidth={3} />
-              </Button>
-              <Button variant="ghost">
-                <Italic className="h-4 w-4 text-zinc-400" strokeWidth={3} />
-              </Button>
-              <Button variant="ghost">
-                <Link className="h-4 w-4 text-zinc-400" strokeWidth={3} />
-              </Button>
+              <ToggleButton>
+                <Bold
+                  className="h-4 w-4 text-zinc-500 dark:text-zinc-200"
+                  strokeWidth={3}
+                />
+              </ToggleButton>
+
+              <ToggleButton>
+                <Italic
+                  className="h-4 w-4 text-zinc-500 dark:text-zinc-200"
+                  strokeWidth={3}
+                />
+              </ToggleButton>
+
+              <ToggleButton>
+                <Link
+                  className="h-4 w-4 text-zinc-500 dark:text-zinc-200"
+                  strokeWidth={3}
+                />
+              </ToggleButton>
+
               <Button variant="ghost">
                 <List className="h-4 w-4 text-zinc-400" strokeWidth={3} />
               </Button>
@@ -162,7 +176,7 @@ export function HomeForm() {
           <Textarea
             name="bio"
             id="bio"
-            defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
+            defaultValue="I'm a Product Designer based in London, UK. I specialise in UX/UI design, brand strategy, and Webflow development."
           />
         </div>
       </div>

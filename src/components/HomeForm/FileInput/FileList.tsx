@@ -26,21 +26,23 @@ export function FileList() {
             </div>
             <div className="flex flex-1 flex-col items-start gap-1">
               <div className="flex flex-col">
-                <span className="text-sm font-medium text-zinc-700">
+                <span className="text-sm font-medium text-zinc-700 dark:text-zinc-400">
                   {file.name}
                 </span>
-                <span className="text-sm text-zinc-500">
+                <span className="text-sm text-zinc-500 dark:text-zinc-200">
                   {formatBytes(file.size)}
                 </span>
               </div>
 
-              <div className="flex w-full items-center gap-3">
+              <div className="flex w-full items-center gap-3 pb-2">
                 <div className="h-2 flex-1 rounded-full bg-zinc-100">
                   <div
                     className="h-2 w-4/5 rounded-full bg-violet-600"
                     style={{ width: `${progress}%` }}
                   />
-                  {progress}%
+                  <span className="text-zinc-500 dark:text-gray-400">
+                    {progress}%
+                  </span>
                 </div>
               </div>
             </div>
