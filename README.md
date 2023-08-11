@@ -14,7 +14,7 @@
 ---
 
 <div align="center">
-  <img alt="project gif" title="project gif" src="./public" width="100%" />
+  <img alt="project gif" title="project gif" src="./public/template.gif" width="100%" />
 </div> 
 
 </br>
