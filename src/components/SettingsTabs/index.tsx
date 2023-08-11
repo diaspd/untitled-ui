@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 
 import * as Tabs from '@radix-ui/react-tabs'
 import { TabItem } from './TabItem'

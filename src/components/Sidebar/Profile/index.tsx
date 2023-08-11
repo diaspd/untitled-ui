@@ -1,6 +1,7 @@
 'use client'
-import { LogIn, LogOut } from 'lucide-react'
 import Image from 'next/image'
+
+import { LogIn, LogOut } from 'lucide-react'
 import { useState } from 'react'
 
 export function Profile() {
