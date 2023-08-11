@@ -1,8 +1,10 @@
 'use client'
 
+import { useState } from 'react'
+import Image from 'next/image'
+
 import * as Tabs from '@radix-ui/react-tabs'
 import { TabItem } from './TabItem'
-import { useState } from 'react'
 
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
@@ -53,6 +55,12 @@ export function SettingsTabs() {
           isSelected={currentTab === 'tab10'}
         />
       </Tabs.List>
+
+      <Tabs.Content value="tab2">
+        <h2 className="pt-4 text-2xl font-medium text-zinc-900 dark:text-zinc-200">
+          Make changes to your account!
+        </h2>
+      </Tabs.Content>
     </Tabs.Root>
   )
 }
