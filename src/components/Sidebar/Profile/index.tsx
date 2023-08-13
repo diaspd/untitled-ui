@@ -47,7 +47,7 @@ export function Profile() {
           onClick={handleToggleSignInOut}
           className="group flex w-full items-center justify-center gap-3 rounded-md p-2 font-medium hover:bg-zinc-50 dark:text-zinc-300 dark:hover:bg-zinc-800"
         >
-          Fazer Login
+          Sign In
           <LogIn className="h-5 w-5 text-zinc-500 group-hover:text-violet-500" />
         </button>
       )}
