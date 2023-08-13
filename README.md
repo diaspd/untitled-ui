@@ -45,13 +45,13 @@ $ npm run dev
 The app will be available on `http://localhost:3000`
 
 <br>
-- Nextjs
 </br>
 
 ## 💻 Technologies
 
 This project was developed with the following technologies:
 <b>
+- Nextjs
 </b>
 
 </br>
