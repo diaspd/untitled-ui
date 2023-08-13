@@ -18,14 +18,14 @@ export function HomeForm() {
         id="settings"
         className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200"
       >
-        <div className="grid grid-cols-form gap-3">
+        <div className="flex flex-col gap-3 lg:grid lg:grid-cols-form">
           <label
             htmlFor="firstName"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
           >
             Name
           </label>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2">
             <Input.Root>
               <Input.Control id="firstName" defaultValue="Pedro" />
             </Input.Root>
@@ -36,7 +36,7 @@ export function HomeForm() {
           </div>
         </div>
 
-        <div className="grid grid-cols-form gap-3 pt-5">
+        <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
           <label
             htmlFor="email"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
@@ -55,7 +55,7 @@ export function HomeForm() {
           </Input.Root>
         </div>
 
-        <div className="grid grid-cols-form gap-3 pt-5">
+        <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
           <label
             htmlFor="photo"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
@@ -66,14 +66,14 @@ export function HomeForm() {
             </span>
           </label>
 
-          <FileInput.Root className="flex items-start gap-5">
+          <FileInput.Root className="flex flex-col items-start gap-5 lg:flex-row">
             <FileInput.ImagePreview />
             <FileInput.Trigger />
             <FileInput.Control />
           </FileInput.Root>
         </div>
 
-        <div className="grid grid-cols-form gap-3 pt-5">
+        <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
           <label
             htmlFor="role"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
@@ -85,7 +85,7 @@ export function HomeForm() {
           </Input.Root>
         </div>
 
-        <div className="grid grid-cols-form gap-3 pt-5">
+        <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
           <label
             htmlFor="country"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"
@@ -184,7 +184,7 @@ export function HomeForm() {
           </div>
         </div>
 
-        <div className="grid grid-cols-form gap-3 pt-5">
+        <div className="flex flex-col gap-3 pt-5 lg:grid lg:grid-cols-form">
           <label
             htmlFor="projects"
             className="text-sm font-medium text-zinc-700 dark:text-zinc-200"

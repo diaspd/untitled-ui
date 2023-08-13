@@ -7,7 +7,7 @@ import { Search } from 'lucide-react'
 
 export function Sidebar() {
   return (
-    <aside className="flex flex-col gap-6 border-r border-zinc-200 px-5 py-8 dark:bg-zinc-900">
+    <aside className="hidden flex-col gap-6 border-r border-zinc-200 px-5 py-8 dark:bg-zinc-900 lg:flex">
       <Logo />
 
       <Input.Root>

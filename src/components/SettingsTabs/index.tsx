@@ -8,13 +8,15 @@ import { HomeForm } from '../HomeForm'
 import { ProfileTab } from '../ProfileTab'
 import { PasswordTab } from '../PasswordTab'
 import { TeamTab } from '../TeamTab'
+import { PlanTab } from '../PlanTab'
+import { APITab } from '../APITab'
 
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
 
   return (
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
-      <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200 ">
+      <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
         <TabItem
           value="tab1"
           title="My details"
@@ -82,6 +84,20 @@ export function SettingsTabs() {
           This is your team
         </h2>
         <TeamTab />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab5" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
+          This is your plan
+        </h2>
+        <PlanTab />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab10" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
+          This is API Code
+        </h2>
+        <APITab />
       </Tabs.Content>
     </Tabs.Root>
   )

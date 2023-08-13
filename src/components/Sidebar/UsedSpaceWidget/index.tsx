@@ -14,8 +14,8 @@ export function UsedSpaceWidget() {
     <>
       <div className="mt-auto flex flex-col gap-6">
         <nav className="space-y-0.5">
-          <NavItem title="Support" icon={LifeBuoy} />
-          <NavItem title="Settings" icon={Cog} />
+          <NavItem title="Support" icon={LifeBuoy} isActive={false} />
+          <NavItem title="Settings" icon={Cog} isActive />
         </nav>
       </div>
 

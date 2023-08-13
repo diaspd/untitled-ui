@@ -1,6 +1,6 @@
 export function Intro() {
   return (
-    <div className="mt-6 flex items-center justify-between border-b border-zinc-200 pb-5">
+    <div className="mt-6 grid items-center justify-between gap-2 border-b border-zinc-200 pb-5 lg:flex">
       <div className="space-y-2">
         <h2 className="text-lg font-medium text-zinc-900">Personal info</h2>
         <span className="text-sm text-zinc-500 dark:text-zinc-200">
