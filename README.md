@@ -24,7 +24,7 @@
 Clone the project and access the folder.
 
 ```bash
-$ git
+$ git https://github.com/diaspd/untitled-ui.git
 $ cd 
 ```
 
