@@ -4,6 +4,10 @@ import { useState } from 'react'
 
 import * as Tabs from '@radix-ui/react-tabs'
 import { TabItem } from './TabItem'
+import { HomeForm } from '../HomeForm'
+import { ProfileTab } from '../ProfileTab'
+import { PasswordTab } from '../PasswordTab'
+import { TeamTab } from '../TeamTab'
 
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
@@ -55,10 +59,29 @@ export function SettingsTabs() {
         />
       </Tabs.List>
 
-      <Tabs.Content value="tab2">
-        <h2 className="pt-4 text-2xl font-medium text-zinc-900 dark:text-zinc-200">
+      <Tabs.Content value="tab1">
+        <HomeForm />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab2" className="divide-y divide-zinc-200">
+        <h2 className="pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
           Make changes to your account!
         </h2>
+        <ProfileTab />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab3" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
+          Make changes to your password!
+        </h2>
+        <PasswordTab />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab4" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
+          This is your team
+        </h2>
+        <TeamTab />
       </Tabs.Content>
     </Tabs.Root>
   )
