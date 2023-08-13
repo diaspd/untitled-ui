@@ -24,7 +24,7 @@
 Clone the project and access the folder.
 
 ```bash
-$ git
+$ git https://github.com/diaspd/untitled-ui.git
 $ cd 
 ```
 
@@ -44,12 +44,14 @@ $ npm run dev
 
 The app will be available on `http://localhost:3000`
 
-<br></br>
+<br>
+</br>
 
 ## 💻 Technologies
 
 This project was developed with the following technologies:
 <b>
+- Nextjs
 </b>
 
 </br>
