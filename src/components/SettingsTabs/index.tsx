@@ -10,6 +10,7 @@ import { PasswordTab } from '../PasswordTab'
 import { TeamTab } from '../TeamTab'
 import { PlanTab } from '../PlanTab'
 import { APITab } from '../APITab'
+import { IntegrationTab } from '../IntegrationsTab'
 
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
@@ -93,9 +94,16 @@ export function SettingsTabs() {
         <PlanTab />
       </Tabs.Content>
 
+      <Tabs.Content value="tab9" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
+          This is your Integrations
+        </h2>
+        <IntegrationTab />
+      </Tabs.Content>
+
       <Tabs.Content value="tab10" className="divide-y divide-zinc-200">
         <h2 className="pb-2 pt-4 text-xl font-medium text-zinc-900 dark:text-zinc-200">
-          This is API Code
+          This is your API Code
         </h2>
         <APITab />
       </Tabs.Content>

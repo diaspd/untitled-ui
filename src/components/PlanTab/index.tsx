@@ -11,24 +11,24 @@ export function PlanTab() {
         </span>
 
         <p className="my-2 text-lg text-zinc-800 dark:text-zinc-300">
-          ◼️ Subscribing to the Pro Plan gives you access to a range of advanced
+          ◼ Subscribing to the Pro Plan gives you access to a range of advanced
           features <br></br> that go beyond what&apos;s available in the free
           version.
         </p>
         <p className="my-2 text-lg text-zinc-700 dark:text-zinc-300">
-          ◼️ With the Pro Plan, you&apos;ll receive priority customer support.
+          ◼ With the Pro Plan, you&apos;ll receive priority customer support.
         </p>
         <p className="my-2 text-lg text-zinc-700 dark:text-zinc-300">
-          ◼️ Enjoy a seamless and distraction-free browsing experience with the
+          ◼ Enjoy a seamless and distraction-free browsing experience with the
           Pro Plan.
         </p>
 
         <p className="my-2 text-lg text-zinc-700 dark:text-zinc-300">
-          ◼️ The Pro Plan often provides more in-depth analytics and insights
+          ◼ The Pro Plan often provides more in-depth analytics and insights
           into your <br></br> usage and interactions on the website.
         </p>
         <p className="my-2 text-lg text-zinc-700 dark:text-zinc-300">
-          ◼️ The Pro Plan is often designed to cater to the needs of
+          ◼ The Pro Plan is often designed to cater to the needs of
           professionals, <br></br>entrepreneurs, and small businesses that are
           experiencing growth.
         </p>
