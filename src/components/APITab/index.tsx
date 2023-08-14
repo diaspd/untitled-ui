@@ -7,12 +7,14 @@ export function APITab() {
 
   return (
     <div className="h-screen">
-      <Input.Root>
-        <Input.Prefix className="dark:text-zinc-200">
-          <FileBarChart />
-        </Input.Prefix>
-        <Input.Control disabled placeholder={uniqueId} />
-      </Input.Root>
+      <div className="mt-2">
+        <Input.Root>
+          <Input.Prefix className="dark:text-zinc-200">
+            <FileBarChart />
+          </Input.Prefix>
+          <Input.Control disabled placeholder={uniqueId} />
+        </Input.Root>
+      </div>
     </div>
   )
 }
