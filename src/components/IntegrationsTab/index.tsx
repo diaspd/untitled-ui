@@ -2,7 +2,7 @@ import { Check, Facebook, Github } from 'lucide-react'
 
 export function IntegrationTab() {
   return (
-    <div className="">
+    <div className="h-screen">
       <button
         type="button"
         disabled

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function ProfileTab() {
   return (
-    <div className="mt-2 flex gap-4 pt-4">
+    <div className="mt-2 flex h-screen gap-4 pt-4">
       <Image
         src="https://github.com/diaspd.png"
         alt=""

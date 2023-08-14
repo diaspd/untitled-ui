@@ -6,11 +6,13 @@ export function APITab() {
   const uniqueId = uuidv4()
 
   return (
-    <Input.Root>
-      <Input.Prefix className="dark:text-zinc-200">
-        <FileBarChart />
-      </Input.Prefix>
-      <Input.Control disabled placeholder={uniqueId} />
-    </Input.Root>
+    <div className="h-screen">
+      <Input.Root>
+        <Input.Prefix className="dark:text-zinc-200">
+          <FileBarChart />
+        </Input.Prefix>
+        <Input.Control disabled placeholder={uniqueId} />
+      </Input.Root>
+    </div>
   )
 }

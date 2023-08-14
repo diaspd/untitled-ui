@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function TeamTab() {
   return (
-    <div className="flex gap-4 pt-4">
+    <div className="flex h-screen gap-4 pt-4">
       <Image
         src="https://github.com/mp-tec.png"
         alt=""

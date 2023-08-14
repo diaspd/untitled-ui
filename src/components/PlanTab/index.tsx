@@ -1,6 +1,6 @@
 export function PlanTab() {
   return (
-    <>
+    <div className="h-screen">
       <div className="flex h-fit w-fit flex-col justify-center rounded-md border border-b-2 bg-violet-50 p-10 hover:bg-violet-100 dark:border-2 dark:border-zinc-100 dark:bg-zinc-900 dark:hover:bg-zinc-800">
         <span className="text-2xl font-medium text-violet-500 dark:text-violet-400">
           Purchased !!
@@ -33,6 +33,6 @@ export function PlanTab() {
           experiencing growth.
         </p>
       </div>
-    </>
+    </div>
   )
 }
