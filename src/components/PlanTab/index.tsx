@@ -1,13 +1,21 @@
+import { Check } from 'lucide-react'
+
 export function PlanTab() {
   return (
     <div className="h-screen">
-      <div className="mt-2 flex h-fit w-fit flex-col justify-center space-y-2 rounded-md border border-b-2 bg-violet-50 p-10 hover:bg-violet-100 dark:border-zinc-100 dark:bg-zinc-900 dark:hover:bg-zinc-800">
-        <span className="w-full border-b-2 border-b-violet-500 text-2xl font-medium text-violet-500 dark:text-violet-400">
-          Purchased !!
+      <div className="mt-2 flex h-fit w-[448px] flex-col justify-center space-y-2 rounded-tr-xl border border-b-2 bg-violet-50 p-10 shadow-lg hover:bg-violet-100 dark:border-zinc-100 dark:bg-zinc-900 dark:hover:bg-zinc-800">
+        <span className="flex w-full text-2xl font-semibold text-violet-500 dark:text-violet-400">
+          Pro
+          <span className="ml-auto">
+            <Check />
+          </span>
         </span>
 
-        <span className="text-xl leading-relaxed text-zinc-800 dark:text-zinc-200">
-          Now you have the Pro plan
+        <span className="text-3xl font-bold leading-relaxed text-zinc-800 dark:text-zinc-200">
+          $20{' '}
+          <span className="text-sm font-semibold leading-relaxed text-zinc-800 dark:text-zinc-200">
+            per month
+          </span>
         </span>
 
         <p className="text-sm leading-relaxed text-zinc-800 dark:text-zinc-300">
@@ -26,11 +34,6 @@ export function PlanTab() {
         <p className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
           ◼ The Pro Plan often provides more in-depth analytics and insights
           into your <br></br> usage and interactions on the website.
-        </p>
-        <p className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-          ◼ The Pro Plan is often designed to cater to the needs of
-          professionals, <br></br>entrepreneurs, and small businesses that are
-          experiencing growth.
         </p>
       </div>
     </div>
