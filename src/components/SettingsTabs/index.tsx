@@ -13,6 +13,7 @@ import { APITab } from '../Tabs/API'
 import { IntegrationTab } from '../Tabs/Integrations'
 import { NotificationsTab } from '../Tabs/Notifications'
 import { EmailTab } from '../Tabs/Email'
+import { BillingTab } from '../Tabs/Billing'
 
 export function SettingsTabs() {
   const [currentTab, setCurrentTab] = useState('tab1')
@@ -94,6 +95,13 @@ export function SettingsTabs() {
           This is your plan
         </h2>
         <PlanTab />
+      </Tabs.Content>
+
+      <Tabs.Content value="tab6" className="divide-y divide-zinc-200">
+        <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
+          This is your plan
+        </h2>
+        <BillingTab />
       </Tabs.Content>
 
       <Tabs.Content value="tab7" className="divide-y divide-zinc-200">
