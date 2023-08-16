@@ -52,6 +52,7 @@ The app will be available on `http://localhost:3000`
 This project was developed with the following technologies:
 <b>
 - Nextjs
+- TailwindCss
 </b>
 
 </br>
