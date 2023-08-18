@@ -59,7 +59,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰 .
+💰 A project using best practices of tailwindcss, composition pattern and more.
 
 <br></br>
 
