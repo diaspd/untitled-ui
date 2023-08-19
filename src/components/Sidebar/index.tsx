@@ -2,7 +2,7 @@ import { Logo } from './Logo'
 import { MainNavigation } from './MainNavigation'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
-import * as Input from './Input'
+import * as Input from '../HomeForm/Input'
 import { Search } from 'lucide-react'
 
 export function Sidebar() {

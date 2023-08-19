@@ -1,6 +1,6 @@
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 
-import * as Input from '@/components/Sidebar/Input'
+import * as Input from '@/components/HomeForm/Input'
 import * as FileInput from '@/components/HomeForm/FileInput'
 
 import { Button } from './Button'
@@ -16,7 +16,7 @@ export function HomeForm() {
       <Intro />
       <form
         id="settings"
-        className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200"
+        className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200 outline-none"
       >
         <div className="flex flex-col gap-3 lg:grid lg:grid-cols-form">
           <label

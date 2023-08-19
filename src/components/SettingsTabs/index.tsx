@@ -65,7 +65,7 @@ export function SettingsTabs() {
         />
       </Tabs.List>
 
-      <Tabs.Content value="tab1">
+      <Tabs.Content value="tab1" className="outline-none">
         <HomeForm />
       </Tabs.Content>
 

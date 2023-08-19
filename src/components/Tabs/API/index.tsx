@@ -1,4 +1,4 @@
-import * as Input from '@/components/Sidebar/Input'
+import * as Input from '@/components/HomeForm/Input'
 import { v4 as uuidv4 } from 'uuid'
 import { FileBarChart } from 'lucide-react'
 

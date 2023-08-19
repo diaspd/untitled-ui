@@ -1,4 +1,4 @@
-import * as Input from '@/components/Sidebar/Input'
+import * as Input from '@/components/HomeForm/Input'
 
 export function EmailTab() {
   return (
