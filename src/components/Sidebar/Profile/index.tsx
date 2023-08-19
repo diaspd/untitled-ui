@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { LogIn, LogOut } from 'lucide-react'
 import { useState } from 'react'
+import { Button } from '@/components/HomeForm/Button'
 
 export function Profile() {
   const [isLoggedIn, setIsLoggedIn] = useState(true)
@@ -31,15 +32,12 @@ export function Profile() {
             </span>
           </div>
 
-          <button
-            type="button"
-            className="group ml-auto rounded-md p-2 hover:bg-zinc-50 dark:hover:bg-zinc-800"
-          >
+          <Button type="button" variant="ghost">
             <LogOut
               className="h-5 w-5 text-zinc-500 group-hover:text-red-500"
               onClick={handleToggleSignInOut}
             />
-          </button>
+          </Button>
         </>
       ) : (
         <button

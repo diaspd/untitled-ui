@@ -165,10 +165,10 @@ export function HomeForm() {
                   />
                 </ToggleButton>
 
-                <Button variant="ghost">
+                <Button variant="ghost" type="button">
                   <List className="h-4 w-4 text-zinc-400" strokeWidth={3} />
                 </Button>
-                <Button variant="ghost">
+                <Button variant="ghost" type="button">
                   <ListOrdered
                     className="h-4 w-4 text-zinc-400"
                     strokeWidth={3}
