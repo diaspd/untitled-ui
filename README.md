@@ -52,17 +52,19 @@ The app will be available on `http://localhost:3000`
 This project was developed with the following technologies:
 <b>
 - Nextjs
+- TailwindCss
+- TypeScript
 </b>
 
 </br>
 
 ## 📄 Project
-💰 .
+💰 A project using best practices of Tailwindcss, Composition Pattern and more.
 
 <br></br>
 
 ## 🔖 Layout
-- [Untitled UI - Figma]()
+- [Untitled UI - Figma](https://www.figma.com/file/MU3H8HfTxX32ukt8ANpan7/Ignite-Tailwind?type=design&node-id=0-1&mode=design&t=6keaJOXkojKRKzxO-0)
 
 <br></br>
 
