@@ -14,7 +14,7 @@ export function useFileUpload() {
       } else {
         clearInterval(interval)
       }
-    }, 1000)
+    }, 600)
 
     setTimeout(() => {
       clearInterval(interval)
