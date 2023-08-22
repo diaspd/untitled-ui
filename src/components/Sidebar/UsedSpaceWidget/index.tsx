@@ -39,14 +39,14 @@ export function UsedSpaceWidget() {
           <div className="space-x-3">
             <button
               type="button"
-              className="text-sm font-medium text-violet-500 hover:text-violet-700 dark:text-violet-400"
+              className="text-sm font-medium text-violet-500 hover:text-violet-700 dark:text-violet-400 dark:hover:text-violet-300"
               onClick={handleDismiss}
             >
               Dismiss
             </button>
             <button
               type="button"
-              className="text-sm font-medium text-violet-700 hover:text-violet-900 dark:text-violet-500"
+              className="text-sm font-medium text-violet-700 hover:text-violet-900 dark:text-violet-500 dark:hover:text-violet-400"
             >
               Ugrade plan
             </button>
