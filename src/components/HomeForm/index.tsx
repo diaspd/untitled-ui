@@ -30,9 +30,18 @@ export function HomeForm() {
               <Input.Control id="firstName" defaultValue="Pedro" />
             </Input.Root>
 
-            <Input.Root>
-              <Input.Control defaultValue="Dias" />
-            </Input.Root>
+            <div className="flex flex-col gap-3 lg:block">
+              <label
+                htmlFor="lastName"
+                className="text-sm font-medium text-zinc-700 dark:text-zinc-200 lg:sr-only"
+              >
+                Last Name
+              </label>
+
+              <Input.Root>
+                <Input.Control id="lastName" defaultValue="Dias" />
+              </Input.Root>
+            </div>
           </div>
         </div>
 
