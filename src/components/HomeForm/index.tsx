@@ -16,7 +16,7 @@ export function HomeForm() {
       <Intro />
       <form
         id="settings"
-        className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200 outline-none"
+        className="mt-6 flex w-full flex-col gap-5 divide-y divide-zinc-200 outline-none dark:divide-zinc-500"
       >
         <div className="flex flex-col gap-3 lg:grid lg:grid-cols-form">
           <label
