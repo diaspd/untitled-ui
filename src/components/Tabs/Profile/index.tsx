@@ -8,7 +8,7 @@ export function ProfileTab() {
         alt=""
         width={300}
         height={300}
-        className="h-20 w-20 rounded-full"
+        className="h-20 w-20 rounded-full border-4 border-b-violet-600 border-l-violet-400 border-r-violet-600 border-t-violet-500"
       />
       <div className="mt-4 flex flex-1 flex-col truncate">
         <span className="text-lg font-semibold text-zinc-700 dark:text-zinc-300">

@@ -1,4 +1,3 @@
-import * as Select from '@/components/HomeForm/Select'
 import { Button } from './Button'
 
 export function Intro() {
@@ -9,22 +8,6 @@ export function Intro() {
           Personal info
         </h2>
 
-        <div className="flex pb-4 lg:hidden">
-          <Select.Root name="details">
-            <Select.Trigger>
-              <Select.Value placeholder="My details" />
-            </Select.Trigger>
-
-            <Select.Content>
-              <Select.Item value="details">
-                <Select.ItemText>My details</Select.ItemText>
-              </Select.Item>
-              <Select.Item value="profile">
-                <Select.ItemText>Profile</Select.ItemText>
-              </Select.Item>
-            </Select.Content>
-          </Select.Root>
-        </div>
         <span className="text-sm text-zinc-500 dark:text-zinc-200">
           Update your photo and personal details here.
         </span>

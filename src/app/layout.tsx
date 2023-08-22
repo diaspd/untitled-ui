@@ -22,9 +22,11 @@ export default function RootLayout({
       </head>
 
       <body className={inter.className}>
-        <div className="grid grid-cols-1 lg:min-h-screen lg:grid-cols-app">
+        <div className="min-h-screen overflow-x-hidden lg:grid lg:grid-cols-app">
           <Sidebar />
-          <main className="px-8 pb-12 pt-8 dark:bg-zinc-900">{children}</main>
+          <main className="max-w-[100vw] px-4 pb-12 pt-24 lg:col-start-2 lg:px-8 lg:pt-8">
+            {children}
+          </main>
         </div>
       </body>
     </html>
