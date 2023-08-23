@@ -2,7 +2,7 @@ import { Check, Rocket, Users, X } from 'lucide-react'
 
 export function NotificationsTab() {
   return (
-    <div className="h-screen divide-y-2 divide-zinc-200 dark:divide-zinc-200">
+    <div className="h-screen divide-y-2 divide-zinc-200 dark:divide-zinc-500">
       <div className="flex items-start gap-6 p-4">
         <Rocket className="mt-3 h-6 w-6 text-violet-500" />
 

@@ -6,7 +6,7 @@ export function IntegrationTab() {
       <button
         type="button"
         disabled
-        className="mt-2 flex w-full items-center gap-2 rounded-md bg-violet-200 p-5 dark:border dark:border-zinc-300 dark:bg-zinc-900"
+        className="mt-2 flex w-full items-center gap-2 rounded-md bg-violet-200 p-5 dark:border dark:border-zinc-400 dark:bg-zinc-900"
       >
         <Facebook className="text-lg font-medium text-violet-500" />
         <span className="text-lg font-medium dark:text-zinc-200">

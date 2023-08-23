@@ -3,7 +3,7 @@ import Image from 'next/image'
 export function BillingTab() {
   return (
     <div className="h-screen">
-      <div className="mt-2 flex h-fit w-full flex-col justify-center space-y-2 rounded-md rounded-tr-xl border border-b-2 bg-gradient-to-r from-violet-50 to-violet-200 p-10 dark:border-zinc-100 dark:from-zinc-900 dark:to-zinc-800">
+      <div className="mt-2 flex h-fit w-full flex-col justify-center space-y-2 rounded-md rounded-tr-xl border border-b-2 bg-gradient-to-r from-violet-50 to-violet-200 p-10 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800">
         <span className="flex w-full text-xl font-medium text-zinc-800 dark:text-violet-100">
           Busines PRO + trial
           <span className="ml-auto text-sm text-zinc-600 dark:text-zinc-300">

@@ -3,7 +3,7 @@ import { Check } from 'lucide-react'
 export function PlanTab() {
   return (
     <div className="h-screen">
-      <div className="mt-2 flex h-fit w-[448px] flex-col justify-center space-y-2 rounded-tr-xl border border-b-2 bg-violet-50 p-10 shadow-lg transition-all duration-300  hover:translate-y-5 hover:bg-violet-100 dark:border-zinc-100 dark:bg-zinc-900 dark:hover:bg-zinc-800">
+      <div className="mt-2 flex h-fit w-full flex-col justify-center space-y-2 rounded-tr-xl border border-b-2 bg-violet-50 p-10 shadow-lg transition-all duration-300 hover:translate-y-5  hover:bg-violet-100 dark:border-zinc-100 dark:bg-zinc-900 dark:hover:bg-zinc-800 lg:w-[448px]">
         <span className="flex w-full text-2xl font-semibold text-violet-500 dark:text-violet-400">
           Pro
           <span className="ml-auto">

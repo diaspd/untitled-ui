@@ -90,63 +90,90 @@ export function SettingsTabs() {
         <HomeForm />
       </Tabs.Content>
 
-      <Tabs.Content value="tab2" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab2"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500 dark:divide-zinc-500"
+      >
         <h2 className="pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           Make changes to your account!
         </h2>
         <ProfileTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab3" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab3"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           Make changes to your password!
         </h2>
         <PasswordTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab4" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab4"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your team
         </h2>
         <TeamTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab5" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab5"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your plan
         </h2>
         <PlanTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab6" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab6"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your plan
         </h2>
         <BillingTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab7" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab7"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           Change your email
         </h2>
         <EmailTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab8" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab8"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your Notifications
         </h2>
         <NotificationsTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab9" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab9"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your Integrations
         </h2>
         <IntegrationTab />
       </Tabs.Content>
 
-      <Tabs.Content value="tab10" className="divide-y divide-zinc-200">
+      <Tabs.Content
+        value="tab10"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
+      >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           This is your API Code
         </h2>
