@@ -92,7 +92,7 @@ export function SettingsTabs() {
 
       <Tabs.Content
         value="tab2"
-        className="divide-y divide-zinc-200 dark:divide-zinc-500 dark:divide-zinc-500"
+        className="divide-y divide-zinc-200 dark:divide-zinc-500"
       >
         <h2 className="pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
           Make changes to your account!
