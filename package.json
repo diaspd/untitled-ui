@@ -1,6 +1,7 @@
 {
-  "name": "untitled-ui",
-  "version": "0.1.0",
+"name": "untitled-ui",
+"author": "pedro_dias",
+"version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
