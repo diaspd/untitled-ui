@@ -135,7 +135,7 @@ export function SettingsTabs() {
         className="divide-y divide-zinc-200 dark:divide-zinc-500"
       >
         <h2 className="pb-2 pt-4 text-lg font-medium text-zinc-900 dark:text-zinc-200">
-          This is your plan
+          This is your Billing
         </h2>
         <BillingTab />
       </Tabs.Content>
