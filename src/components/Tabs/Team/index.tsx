@@ -4,7 +4,7 @@ export function TeamTab() {
   return (
     <div className="flex h-screen gap-4 pt-4">
       <Image
-        src="https://github.com/mp-tec.png"
+        src="https://github.com/diaspd.png"
         alt=""
         width={300}
         height={300}
@@ -12,10 +12,10 @@ export function TeamTab() {
       />
       <div className="mt-4 flex flex-1 flex-col truncate">
         <span className="text-lg font-semibold text-zinc-700 dark:text-zinc-300">
-          MP Tec
+          Team Pedro
         </span>
         <span className="text-md truncate text-zinc-500 dark:text-zinc-400">
-          mptec@gmail.com
+          team@gmail.com
         </span>
       </div>
     </div>
