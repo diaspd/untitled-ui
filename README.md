@@ -3,6 +3,10 @@
    Untitled UI
 </h1> 
 
+<h2 align="center">
+  Link to project online: <a href="https://untitled-ui-rouge.vercel.app">Untitled UI</a>
+</h1>
+
 <div align="center">
   <b>
     <a href="#-Technologies"><b>Technologies</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,6 +16,10 @@
 </div>
 
 ---
+
+<div align="center">
+  <img alt="project img" title="project image" src="./public/template.svg" width="100%" />
+</div> 
 
 <div align="center">
   <img alt="project gif" title="project gif" src="./public/template.gif" width="100%" />
@@ -59,7 +67,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰 A project using best practices of Tailwindcss, Composition Pattern and more.
+💰 A project using best practices of Tailwindcss, Composition Pattern, responsive UI and more.
 
 <br></br>
 
