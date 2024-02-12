@@ -3,6 +3,10 @@
    Untitled UI
 </h1> 
 
+<h2 align="center">
+  Link to project online: <a href="https://untitled-ui-rouge.vercel.app">Untitled UI</a>
+</h1>
+
 <div align="center">
   <b>
     <a href="#-Technologies"><b>Technologies</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
